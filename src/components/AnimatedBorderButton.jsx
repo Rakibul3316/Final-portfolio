@@ -1,6 +1,20 @@
-export const AnimatedBorderButton = ({ children }) => {
+export const AnimatedBorderButton = ({ children, onClick, href, download }) => {
+  const handleClick = () => {
+    if (onClick) {
+      onClick();
+    } else if (href) {
+      const link = document.createElement("a");
+      link.href = href;
+      if (download) link.download = download;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+  };
+
   return (
     <button
+      onClick={handleClick}
       className="relative bg-transparent border border-border 
         text-foreground hover:border-primary/50 transition-all 
         duration-1000 focus:outline-none focus-visible:ring-2 

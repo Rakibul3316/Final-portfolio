@@ -1,3 +1,6 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+ */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 @import "tailwindcss";
 
 @theme {
@@ -35,7 +38,8 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
-    font-family: "Inter", sans-serif;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
   }
 
   .font-serif {
@@ -53,7 +57,9 @@
   .glass-strong {
     background-color: color-mix(in srgb, var(--color-surface) 80%, transparent);
     backdrop-filter: blur(24px);
-    border: 1px solid color-mix(in srgb, var(--color-border) 60%, transparent);
+    box-shadow: 0 8px 8px
+      color-mix(in srgb, var(--color-primary) 20%, transparent);
+    /* border: 1px solid color-mix(in srgb, var(--color-border) 60%, transparent); */
   }
 
   .glow-text {

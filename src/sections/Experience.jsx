@@ -1,38 +1,29 @@
 const experiences = [
   {
-    period: "2022 — Present",
-    role: "Senior Frontend Engineer",
-    company: "Tech Innovators Inc.",
+    period: "2024 — Present",
+    role: "Backend Engineer",
+    company: "The Dot Red LTD.",
     description:
-      "Leading frontend architecture for a suite of fintech products. Implemented micro-frontend architecture, reduced bundle size by 40%, and mentored a team of 5 developers.",
-    technologies: ["React", "TypeScript", "Next.js", "GraphQL"],
+      "Experienced in building scalable backend systems using Node.js, Express.js, MongoDB, and Mongoose. Skilled in designing RESTful APIs, database architecture, authentication systems, and server-side applications that power modern web platforms.",
+    technologies: ["Node.js", "Express", "MongoDB", "Mongoose", "REST APIs"],
     current: true,
   },
   {
-    period: "2020 — 2022",
-    role: "Frontend Engineer",
-    company: "Digital Solutions Co.",
+    period: "2023 — 2024",
+    role: "Frontend Developer",
+    company: "The Dot Red LTD.",
     description:
-      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
-    technologies: ["React", "Redux", "Jest", "Cypress"],
+      "Crafting dynamic and user-centric frontend experiences with React, Next.js, Redux, and Redux Toolkit, ensuring optimal performance, accessibility, and scalability across modern web platforms.",
+    technologies: ["React", "Next.js", "Redux", "Redux Toolkit"],
     current: false,
   },
   {
-    period: "2019 — 2020",
-    role: "Junior Developer",
-    company: "StartUp Labs",
+    period: "2022 — 2023",
+    role: "Junior Frontend Developer",
+    company: "The Dot Red LTD.",
     description:
-      "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.",
-    technologies: ["React", "Node.js", "MongoDB", "AWS"],
-    current: false,
-  },
-  {
-    period: "2018 — 2019",
-    role: "Freelance Developer",
-    company: "Self-Employed",
-    description:
-      "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
-    technologies: ["JavaScript", "PHP", "WordPress", "MySQL"],
+      "Gained hands-on experience in building responsive and interactive web interfaces using HTML, CSS, and JavaScript. Collaborated with senior developers to implement UI components and enhance user experiences.",
+    technologies: ["HTML", "CSS", "JavaScript", "React"],
     current: false,
   },
 ];

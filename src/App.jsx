@@ -4,7 +4,6 @@ import { Contact } from "@/sections/Contact";
 import { Experience } from "@/sections/Experience";
 import { Hero } from "@/sections/Hero";
 import { Projects } from "@/sections/Projects";
-import { Testimonials } from "@/sections/Testimonials";
 import { Footer } from "./layout/Footer";
 
 function App() {
@@ -16,7 +15,7 @@ function App() {
         <About />
         <Projects />
         <Experience />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Contact />
       </main>
       <Footer />

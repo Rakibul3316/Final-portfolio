@@ -39,40 +39,44 @@ export const About = () => {
               </span>
             </div>
 
-            <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Building the future,
+            <h2 className="text-3xl md:text-4xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
+              Passionate About Building,
               <span className="font-serif italic font-normal text-white">
                 {" "}
-                one component at a time.
+                Intelligent Digital Solutions.
               </span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+                I'm a Full-Stack Developer with over 3 years of experience
+                building modern web applications using
+                <span className="text-primary glow-text"> React</span>,
+                <span className="text-primary glow-text"> Next.js</span>,
+                <span className="text-primary glow-text"> Node.js</span>,
+                <span className="text-primary glow-text"> PostgreSQL</span> and
+                <span className="text-primary glow-text"> MongoDB</span>. I
+                enjoy transforming complex ideas into scalable, user-friendly
+                products that solve real-world problems.
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
-              </p>
-              <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+                Alongside web development, I'm actively expanding my expertise
+                in AI and automation to create smarter, more efficient solutions
+                for the future. My focus is on writing clean, maintainable code
+                and delivering technology that creates meaningful business
+                value.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+                "My mission is to build scalable, AI-driven digital solutions
+                that help businesses automate processes, improve efficiency, and
+                unlock new opportunities for growth. By combining modern
+                software engineering with emerging artificial intelligence
+                technologies, I aim to create products that solve real-world
+                challenges and deliver measurable value to users and
+                organizations."
               </p>
             </div>
           </div>
