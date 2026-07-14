@@ -3,7 +3,6 @@ import { About } from "@/sections/About";
 import { Contact } from "@/sections/Contact";
 import { Experience } from "@/sections/Experience";
 import { Hero } from "@/sections/Hero";
-import { Projects } from "@/sections/Projects";
 import { Footer } from "./layout/Footer";
 
 function App() {
@@ -13,7 +12,7 @@ function App() {
       <main>
         <Hero />
         <About />
-        <Projects />
+        {/* <Projects /> */}
         <Experience />
         {/* <Testimonials /> */}
         <Contact />
